@@ -1,0 +1,145 @@
+:root {
+    /* Cette variable va nous permetre de pouvoir modifier la couleurs de font de la div de presence de manier spécifique*/
+    --backgroundColor-presence: black;
+    --affichage-saisir-vide: hidden; 
+}
+
+/* Menu */
+#logo {
+    margin-right: 47%;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+}
+
+#menu {
+    position:sticky;
+    top: 0px;
+    margin: 0;
+}
+
+.page-statistique {
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    bottom: 4px;
+}
+
+.lien-menu {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    margin-bottom: 20px;
+    box-shadow: 1px 5px #8080807d;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open San s', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+
+/* Barre de recherche*/
+
+#search {
+    width: 244px;
+    padding: 5px;
+    border: 1px solid #80808075;
+    border-radius: 5px;
+}
+
+.box-recherche {
+    left: 252px;
+    bottom: 26px;
+    position: relative;
+    height: 24px;
+    width: 32px;
+    background-color: #D4D4D4;
+    border: 1px solid #838383;
+    border-radius: 2px;
+}
+
+#bnt-recherche {
+    left: 8px;
+    width: 17px;
+    position: relative;
+    top: 3px;
+}
+
+.saisir-vide {
+    color: red;
+    visibility: var(--affichage-saisir-vide);
+    position: relative;
+    bottom: 30px;
+    width: 308px;
+}
+
+
+/* Tableau*/
+#option {
+    border-collapse: separate;
+    border: none;
+}
+
+.numero {
+    width: 50px;
+    text-align: center;
+}
+
+.etudiant {
+    width: 250px;
+    max-width: 350px;
+}
+
+.jour-1, .jour-2, .jour-3, .jour-4, .jour-5, .numero, .etudiant {
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.jour-1, .jour-2, .jour-3, .jour-4, .jour-5 {
+    text-align: center;
+}
+
+/* Toutes les class et id qui sont aprés ce commentaire on été ajouté depuit javascript */
+.presence {
+    background-color: var(--backgroundColor-presence);
+    color: white;
+    text-align: center;
+    width: 180px;
+    padding: 5px;
+    margin: 5px 0px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: -23px;;
+}
+
+td, th {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+th {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #D4D4D4;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}

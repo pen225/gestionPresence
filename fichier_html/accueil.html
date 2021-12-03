@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/fichier_css/accueil.css">
+    
+    <title>Accueil</title>
+</head>
+<body>
+    <!--Barre de navigation-->
+    <div class="navbar">
+        <div id="logo"><a href="/fichier_html/accueil.html">LOGO</a></div>
+        <ul>
+            <li><a href="/fichier_html/accueil.html" style="text-transform: uppercase; font-size: 23px;">Accueil</a></li>
+            <li><a href="/fichier_html/statistique.html">Statistique</a></li>
+            <li><a href="/fichier_html/enregistrement.html" target="">Enregistrement</a></li>
+        </ul>
+    </div>
+
+    <!--Corp de page-->
+    <div class="wrapper">
+        
+        <!--Partie gauche-->
+        <div class="gauche">
+            <div class="faciale">
+                <img id="userImage" src="/image_maquette/utilisateur(1).png" alt="Image de l'étudiant">
+            </div>
+            <div class="matricule">
+                <input type="text" placeholder="Entrer vôtre matricule">
+                <button type="submit">Pointer</button>
+                <p class="alerte"></p>
+            </div>
+        </div>
+
+        <!--Partie droite-->
+        <div class="droite">
+            <ul class="list"></ul>
+        </div>
+    </div>
+<script src="/fichier_js/accueil.js"></script>
+</body>
+</html>

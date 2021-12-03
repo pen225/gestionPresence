@@ -1,0 +1,119 @@
+/* Menu */
+#logo {
+    margin-right: 47%;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+}
+
+#menu {
+    position:sticky;
+    top: 0px;
+    margin: 0;
+}
+
+.page-statistique {
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    bottom: 4px;
+}
+
+.lien-menu {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    margin-bottom: 20px;
+    box-shadow: 1px 5px #8080807d;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open San s', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+
+/* Infos sur l'étudians */
+#infos-etudiant {
+    display: flex;
+}
+
+.cote-gauche {
+    text-align: left;
+}
+
+.cote-droit {
+    text-align: right;
+}
+
+#infos-etudiant {
+    width: 80%;
+    position: relative;
+    left: 200px;
+    margin-top: 50px;
+}
+
+#bnt-modifier, #bnt-supprimer {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    left: 650px;
+    height: 30px;
+    width: 100px;
+}
+
+#bnt-supprimer {
+    background-color: #FF035E;
+}
+
+#bnt-modifier {
+    background-color: #36CA83;
+    margin: 10px 170px 0px 0px;
+}
+
+#photo {
+    position: relative;
+    top: 35px;
+}
+
+p {
+    margin-top: -3px;
+    margin-bottom: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+td, th {
+    text-align: left;
+    font-size: 1.5em;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+img{
+    width: 400px;
+    margin-right: 50px;
+}
+
+/* Ces class et id on été ajouté depuit javascript */
+.cote-gauche {
+    position: relative;
+    left: 100px;
+}

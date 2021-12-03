@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/fichier_css/style_statistique.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- menu -->
+    <div id="menu">
+        <nav>
+            <ul>
+                <li id="logo"><a class="lien-menu" href="/fichier_html/accueil.html">Logo</a> </li>
+                <li><a class="lien-menu" href="/fichier_html/enregistrement.html">Enregistrement</a></li>
+                <li><a class="lien-menu" href="/fichier_html/accueil.html">Pointage</a></li>
+                <li class="page-statistique"><a class="lien-menu" href="/fichier_html/statistique.html">Statistique</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Création de la barre de recherche -->
+    <form>
+        <input id="search" type="search" placeholder="Entrer le matricule de l'etudiant">
+        <div class="box-recherche"><input id="bnt-recherche" type="image" src="/image_maquette/loupe-arrondie.png" alt="Recherche"></div>      
+    </form>
+    <p class="saisir-vide">Veuillez entrer un matricule valide</p>
+
+    <!-- Création du tableaux qui contenir les informations -->
+    <table>
+        <tr>
+            <th class="numero">N°</th>
+            <th class="etudiant">Etudiant</th>
+            <th class="jour-1">Lundi</th>
+            <th class="jour-2">Mardi</th>
+            <th class="jour-3">Mercredi</th>
+            <th class="jour-4">Jeudi</th>
+            <th class="jour-5">Vendredi</th>
+        </tr>
+    </table>
+
+    <div id="conteneurs-info"></div>
+</body>
+
+<script src="/fichier_js/script_statistique.js"></script>
+</html>

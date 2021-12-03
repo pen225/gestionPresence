@@ -1,0 +1,166 @@
+/*general*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #f8efef;
+}
+input{
+    width: 500px;
+    height: 30px;
+}
+#userImage{
+    height: 400px;
+}
+body{
+    background: #ffffff;
+}
+/*logo*/
+#logo{
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    }
+
+/*Barre de navigation*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    margin: 10px;
+    padding-bottom: 6px;
+    background: #46a9f9;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.navbar ul{
+    list-style: none;
+    margin-top: 10px;
+}
+li {
+    float: left;
+    margin-right: 30px;
+    padding: 5px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: #f8efef;
+    font-size: 20px;
+    padding: 5px;
+}
+.navbar ul a:hover{
+    font-size: 23px;
+    text-shadow: 1px 1px 7px black;
+    transition: all 0.1s ease;
+    
+}
+/*Corps de la page*/
+    /*wrapper*/
+form{
+    display: flex;
+    justify-content: center;
+}
+.container-form{
+    display: flex;
+}
+.cote_droite{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.cote_droite div{
+    height: 50px;
+    margin: 5px 0px 10px 20px;
+}
+
+.input-champs {
+    position: relative;
+    bottom: 15px;
+}
+
+#box-6 {
+    position: relative;
+    top: -26px;
+}
+
+#box-7 {
+    position: relative;
+    top: -30px;
+}
+
+#date-naissance {
+    width: 130px;
+}
+
+/*nom & prenom du formulaire*/
+.name{
+    display: flex;
+}
+.name input{
+    height: 30px;
+    width: 250px;
+   
+}
+.input input{
+    height: 15px;
+    width: 30px;
+}
+input{
+    margin: 5px 2px 2px 2px;
+}
+
+.erreur{
+    color: red;
+}
+/*Titre*/
+.titre{
+    text-align: center;
+}
+
+/*Partie gauche*/
+.cote_gauche{
+    width: 700px;
+    height: 600px;
+    background: url("/image_maquette/photo_formulaire.jpg");
+    background-size: cover;
+    background-position: left;
+}
+.valider{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+.valider button{
+    height: 30px;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.valider .enregistrer{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background: #46a9f9;
+    color: white;
+    border: none;
+}  
+.valider .restaurer{
+    box-shadow: 1px 1px 5px rgb(53, 53, 53);
+    background: #46a9f9;
+    color: white;
+    border: none;
+} 
+
+#userTable{
+    margin: 20px auto;
+    width: 1000px;
+    text-align: center;
+    border: 1px solid gray;
+    background: #cbe7fd;
+}

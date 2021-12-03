@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="date">
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+<script>
+let formulaire = document.querySelector("form");
+// let date = document.querySelector("input")
+
+formulaire.addEventListener("submit", (e) => {
+    console.log(date.value);
+    e.preventDefault();
+});
+
+let date = new Date();
+let ajoudhuil = date.toLocaleDateString()
+
+// Boucle 
+let liste_étudiants = JSON.parse(localStorage.getItem("etudiants"))
+
+
+
+</script>
+</html>

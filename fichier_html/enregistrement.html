@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fichier_css/enregistrement.css">
+    <title>Enregistrement</title>
+</head>
+<body>
+    <!--Barre de navigation-->
+    <div class="navbar">
+        <div id="logo"><a href="/fichier_html/accueil.html">LOGO</a></div>
+        <ul>
+            <li><a href="/fichier_html/accueil.html" >Accueil</a></li>
+            <li><a href="/fichier_html/statistique.html">Statistique</a></li>
+            <li><a href="/fichier_html/enregistrement.html" style="text-transform: uppercase; font-size: 23px;">Enregistrement</a></li>
+        </ul>
+    </div>
+
+    <!--Corp de page-->
+    <div class="wrapper">
+        <form>
+            <div class="container-form">
+                <div class="cote_gauche"></div>
+
+                <div class="cote_droite">
+                    <div class="titre">
+                        <h1>Formulaire d'enregistrement</h1>
+                    </div>
+
+                    <div class="name input-champs">
+                        <p>
+                            <label for="nom">Nom :</label> <br> 
+                            <input required type="text" name="nom" id="nom">
+                        </p>
+
+                        <p>
+                            <label for="prenom">Prenom :</label> <br> 
+                            <input required type="text" id="prenom" name="prenom">
+                        </p>
+                    </div>
+                    <div class="input-champs">
+                        <label for="adresse">Adresse :</label><br> 
+                        <input required type="text" id="adresse" name="adresse">
+                    </div>
+                    <div class="input input-champs" required >
+                        <p>Genre :</p> <label for="masculin"> homme </label>
+                        <input required type="radio" id="masculin" name="sex" value="homme"> 
+                        <label for="feminin">femme</label>
+                        <input required type="radio" name="sex" id="feminin" value="femme">
+                    </div>
+                    <div class="input-champs">
+                        <label for="date-naissance">Date de naissance:</label> <br>
+                        <input type="date" id="date-naissance" required>
+                    </div>
+                    <div class="input-champs"> 
+                        <label for="parcours">Parcours :</label><br> 
+                        <select required>
+                            <option value="python" name="python">PYTHON</option>
+                            <option value="php" name="php">PHP</option>
+                            <option value="javascript" name="javascript">JAVASCRIPT</option>
+                        </select>
+                    </div>
+                    <div class="input-champs" id="box-6">
+                        <label for="tel">Numero de Tel :</label> <br> 
+                        <input required type="tel" id="tel" name="numero_telephone">
+                    </div>
+                    <div class="input-champs" id="box-7">
+                        <label for="email">Email :</label><br> 
+                        <input required name="email" type="email" id="email">
+                    </div>
+                    <div class="valider">
+                        <input type="reset" class="restaurer" value="Restorer">
+                        <input type="submit" value="Inscription" id="enregistrer">
+                    </div>
+                    <p class="erreur"></p>
+
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="/fichier_js/script_enregistrement.js"></script>    
+</body>
+</html>
